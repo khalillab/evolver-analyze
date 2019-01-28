@@ -46,7 +46,7 @@ BASIC VARIABLES (unpacked from expt folder, stored in both _raw.mat and _output.
  
  endpoint: cell array containing [timepoint OD] data for endpoint OD in
  'single' analysis. If timerange is defined such that cultures have
- reached equilibrium, then endpoint is an esitmate of carrying capacity.
+ reached equilibrium, then endpoint is an estimate of carrying capacity.
  Note that high OD values are sbuject to limitations of the calibration
  curve for each smart sleeve.
 
