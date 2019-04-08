@@ -31,7 +31,7 @@ if options == 'avg'
         duration = ODx(end);
 
         doubs = log2(od_end/od_start); %number of doublings
-        rate = doubs/duration; %doublings / time
+        rate = log(2)*doubs/duration; %doublings / time
 
         g_rate(m,:) = [OD_segments{m}(end,1) rate]; %set timestamp at end of each window
         if m<2
