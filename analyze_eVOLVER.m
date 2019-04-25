@@ -237,7 +237,7 @@ if plot_data
                 plot(OD_data{n}(1:nth:end,1),smooth(OD_data{n}(1:nth:end,2)),'Color',colors(n,:)); hold on
                 set(gca,'FontSize',font_size)
                 xlabel('Time (Hours)')
-                ylabel('Growth Rate (1/Hr)')
+                ylabel('Optical Density')
                 xlim(timeaxis)
                 ylim(ODaxis)
                 legend(vial_name{n})
